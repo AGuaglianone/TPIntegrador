@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }  
+  
+  .alto{
+      height: 85vh;
+  }
+  .filter{
+      -webkit-filter: brightness(60%);
+      filter: brightness(60%);
+  }
+  .no-filter{
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+  }
+  
+  .mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .alto-menu {
+    height: 15vh;
+  }
+  .navbar-brand {
+    padding-left: 3%;
+  }
+  .navbar-nav {
+    padding-left: 15%;
+  }
+  .container-cards {
+    padding-left: 5%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 100vh;
+  }
+  .alto-card {
+    height: 88vh;
+  }
+  .card-title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .btn-text {
+    font-size: 9px;
+    font-weight: 700;
+    padding: 0px;
+  }
+  h6 {
+    font-size: 9px;
+    
+  }
+  h4 {
+    margin-top: -20px;
+  }
+  .pantalla-dividida {
+    height: 80vh;
+    
+  }
+  .foto-playa {
+    background-image: url(img/honolulu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .formulario {
+    width: 60%;
+    height: 60vh;
+  }
+  .dotted {
+    text-decoration-style: dotted;
+  }
+  .text-left {
+    font-size: 11px;
+  }
+  .text-form {
+    font-size: 14px;
+    
+  }
+  .form-control-xs {
+    height: 23px;
+  }
+  .btn-form {
+    background-color: rgb(151, 225, 39);
+    color: white;
+  }
+  .alto-footer{
+    height: 15vh;
+    }
+  .bg-footer {
+    background-color: rgb(28, 66, 80);
+  }  
+  
+  footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30%;
+    }
+  footer a:hover {
+    color: black;
+    }
+  @media screen and (max-width: 768px) {
+    .alto-menu {
+      height: 20vh;
+    }
+    .alto {
+      height: 70vh;
+    }    
+    .container-cards {
+      height: 140vh;
+    }
+    .card-img-top {
+      width: 20%;
+    }
+    .alto-card {
+      height: 40vh;
+      }
+    .ancho-card {
+        width: 80%;
+        align-items: center;
+      }
+    .card {
+        margin-bottom: 2%;
+      }
+    }
+    .pantalla-dividida {
+      height: 80vh;
+    }
+    /*.foto-playa {
+      height: 50%;
+    }
+    .alto-texto-playa {
+      height: 50%;
+    }*/
+    /*No me queda bien la foto de la playa en mobile*/
+    .texto-playa {
+      font-size: 12px;
+    }
+    footer {
+      margin-top: 3%;
+    }
+    /*.alto-footer{
+    height: 30vh;
+    }*/
+    footer a {
+      padding-top: 20%;
+    }      
