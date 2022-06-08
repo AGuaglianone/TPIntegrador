@@ -62,7 +62,7 @@
     
   }
   .foto-playa {
-    background-image: url(honolulu.jpg);
+    background-image: url(img/honolulu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -72,6 +72,7 @@
     height: 60vh;
   }
   .dotted {
+    text-decoration-line: underline;
     text-decoration-style: dotted;
   }
   .text-left {
@@ -79,7 +80,7 @@
   }
   .text-form {
     font-size: 14px;
-    
+  
   }
   .form-control-xs {
     height: 23px;
@@ -94,6 +95,9 @@
   .bg-footer {
     background-color: rgb(28, 66, 80);
   }  
+  footer {
+    margin-top: 3%;
+  }
   
   footer a {
     display: inline-block;
@@ -101,11 +105,30 @@
     color: white;
     font-size: 12px;
     text-align: center;
-    padding-top: 30%;
-    }
+    padding-top: 20%;
+  }
   footer a:hover {
     color: black;
-    }
+  }
+    .container-tickets {
+      width: 60%;
+      height: 45vh;
+  }
+    .card-ticket-body p{
+      line-height: 1rem;
+  }
+    .card-ticket-title {
+      font-size: 22px;
+      font-weight: 400;
+  }
+    .card-ticket-text {
+      font-size: 16px;
+  }
+    .formulario-tickets {
+      width: 60%;
+      height: 80vh;
+  }
+  
   @media screen and (max-width: 768px) {
     .alto-menu {
       height: 20vh;
@@ -121,34 +144,42 @@
     }
     .alto-card {
       height: 40vh;
-      }
+    }
     .ancho-card {
-        width: 80%;
+        width: 18rem !important;
         align-items: center;
-      }
+    }
     .card {
         margin-bottom: 2%;
-      }
     }
-    .pantalla-dividida {
-      height: 80vh;
+      .container-tickets {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
     }
-    /*.foto-playa {
-      height: 50%;
+      .formulario-tickets {
+        margin-top: 15%;
+        margin-bottom: 10%;
     }
-    .alto-texto-playa {
-      height: 50%;
-    }*/
-    /*No me queda bien la foto de la playa en mobile*/
-    .texto-playa {
-      font-size: 12px;
+      .alto-footer {
+        height: 25vh !important; /*no me lo toma*/
     }
-    footer {
-      margin-top: 3%;
+      .pantalla-dividida {
+        height: 160vh !important;  /*no me lo toma*/
     }
-    /*.alto-footer{
-    height: 30vh;
-    }*/
-    footer a {
-      padding-top: 20%;
+      foto-playa {
+        height: 50% !important;  /*no me lo toma*/
+    }
+      .alto-texto-playa {
+        height: 50%;  /*no me lo toma*/
+    }
+      .texto-playa {
+        font-size: 12px;
+    }
+      footer a {
+        padding-top: 20%;
     }      
+  }
+    
+    
+    
